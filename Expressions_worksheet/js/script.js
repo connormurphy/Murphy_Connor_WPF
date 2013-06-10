@@ -55,11 +55,19 @@ console.log(averageWeekly);
 //Discounts
 
 var originalPrice = 180;
-var discountPercentage = 20;
-var description = watch;
+var discountPercentage = .20;
+// description: New Watch
 var salesTax = .08;
 
-var price_with_tax = originalPrice * 
+var addDiscount = discountPercentage * originalPrice;  // Totals 36 dollars in discount price.
+var add_sales_tax = salesTax * originalPrice;  // 14.40 in tax.
+
+var price_with_tax = originalPrice - addDiscount + add_sales_tax;  // This is used to get price with tax.
+var price_without_tax = originalPrice - addDiscount;  // Price without tax.
+
+
+console.log(price_with_tax);
+console.log(price_without_tax);
 
 
 
