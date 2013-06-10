@@ -43,10 +43,23 @@ console.log(sparkysPizza);
 //Average Shopping Bill
 
 var groceryTotals = [190,  200, 185, 215, 210]; // This is money spent on groceries for the past 5 weeks
-var total = groceryTotals[0] + groceryTotals[1] + groceryTotals[2] + groceryTotals[3] + groceryTotals[4];  // This adds up any of the numbers that are submitted into the groceryTotals var.
+var total = groceryTotals[0] + groceryTotals[1] + groceryTotals[2] + groceryTotals[3] + groceryTotals[4];  // This adds up any of the numbers that are submitted into the groceryTotals var.  Total amount on groceries.
 
-var averageWeekly = total / 5; //
+var averageWeekly = total / 5; 
 //This gets the average weekly total spent on groceries  
 
 console.log(averageWeekly);
+
+
+
+//Discounts
+
+var originalPrice = 180;
+var discountPercentage = 20;
+var description = watch;
+var salesTax = .08;
+
+var price_with_tax = originalPrice * 
+
+
 
