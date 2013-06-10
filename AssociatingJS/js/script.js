@@ -1,3 +1,5 @@
 // JavaScript Document
 
-var muppetNames = [ "Kermit", "Miss Piggy", "Gonzo", 38];
+var muppetNames = [ "Kermit", "Miss Piggy", "Gonzo", "Rizzo"]; //0,1,2,3
+
+console.log(muppetNames[1]);
