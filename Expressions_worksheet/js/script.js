@@ -49,7 +49,8 @@ var total = groceryTotals[0] + groceryTotals[1] + groceryTotals[2] + groceryTota
 var averageWeekly = total / 5; 
 //This gets the average weekly total spent on groceries  
 
-console.log(averageWeekly);
+
+console.log("You have spent a total of $ " + total + " on groceries over 5 weeks.  This is an average of $ " + averageWeekly + " per week.")
 
 
 
