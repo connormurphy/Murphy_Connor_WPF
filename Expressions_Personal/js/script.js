@@ -17,4 +17,4 @@ var people = how_many_people + how_many_guests;  // This gets you the total numb
 
 var chicken = people * numPieces;  // This will calculate how many pieces of chicken by multiplying the number of people, and number of pieces each.
 
-alert("You will need to buy " + chicken + " pieces of chicken for your family dinner")
+alert("You will need to buy " + chicken + " pieces of chicken for your family dinner") // This shows how many pieces of chicken you will need to buy for your family dinner.
