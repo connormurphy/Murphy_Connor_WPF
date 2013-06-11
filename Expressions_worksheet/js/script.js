@@ -12,7 +12,7 @@ var sparkysAge = 7; //This is human age of Sparky
 var dogYears = 7 + sparkysAge;  // This shows how old Sparky is in "dog years"
 
 
-console.log("Sparky is " + sparkysAge + " human years old which is " + dogYears + " in dog years")
+console.log("Sparky is " + sparkysAge + " human years old which is " + dogYears + " in dog years.")
 
 
 
@@ -23,9 +23,10 @@ var numPeople = 10;  // This the number of people at the party
 var numPizzas = 4;   // This is the number of pizzas that were ordered
 
 var slices_per_person = numSlices * numPizzas / numPeople; 
+// This shows how to get the slices per person at the party.
 
 
-console.log("Each person ate " +slices_per_person + " slices at the party");  // This shows how many pieces each person will eat at the party.
+console.log("Each person ate " +slices_per_person + " slices at the party.");  // This shows how many pieces each person will eat at the party.
 
 
 //Slices of Pie part 2
@@ -50,16 +51,16 @@ var averageWeekly = total / 5;
 //This gets the average weekly total spent on groceries  
 
 
-console.log("You have spent a total of $ " + total + " on groceries over 5 weeks.  This is an average of $ " + averageWeekly + " per week.")
+console.log("You have spent a total of  $" + total + " on groceries over 5 weeks.  This is an average of  $" + averageWeekly + " per week.")
 
 
 
 //Discounts
 
-var originalPrice = 180;
-var discountPercentage = .20;
+var originalPrice = 180;  //  Original price of the watch
+var discountPercentage = .20;  // This is the 20% discount.
 // description: New Watch
-var salesTax = .08;
+var salesTax = .08;  // 8% sales tax
 
 var addDiscount = discountPercentage * originalPrice;  // Totals 36 dollars in discount price.
 var add_sales_tax = salesTax * originalPrice;  // 14.40 in tax.
@@ -69,8 +70,8 @@ var price_without_tax = originalPrice - addDiscount;  // Price without tax.
 
 
 
-console.log(price_with_tax);
-console.log(price_without_tax);
+
+console.log("Your watch was originally $" + originalPrice + " but after a 20% discount, it is now $" + price_without_tax + " without tax, and $" + price_with_tax + " with tax.")
 
 
 
