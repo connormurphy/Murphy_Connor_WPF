@@ -7,6 +7,8 @@ Expressions Personal
 
 
 // How much chicken to buy for a family dinner
+
+
 var how_many_people = parseInt(prompt("Enter the number of people in your family:"));  // This is the number of people in your immediate family.
 var how_many_guests = parseInt(prompt("Enter the number of guests your having over:")); // Enter how many dinner guests you will be having.
 var numPieces = parseInt(prompt("Enter the number of pieces each person will eat:")); // Number of pieces you'd like each person to have.
