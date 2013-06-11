@@ -12,6 +12,8 @@ Expressions Wacky
 // Each box of jello takes 2.5 cups of water.
 // If you have a 20,000 gallon pool thats roughly $96,000 in jello.
 
+//All based on how much water your pool holds since jello takes 2.5 cups of water per box.
+
 
 
 
@@ -29,5 +31,5 @@ var getBoxes = getOunces / num_of_gallons;
 
 
 
-alert("To fill up your entire pool of jello, it would take " + getBoxes + " boxes of jello.");  //  Final printout of how many boxes you will need to fill your entire pool with jello based on how many gallons of water it can hold.
+alert("To fill up your entire pool of jello, it would take " + getBoxes + " boxes of jello.");  //  Final printout of how many boxes you will need to fill your entire pool with jello based on how many gallons of water it holds.
 
