@@ -10,6 +10,7 @@ Expressions Wacky
 //  There are 128oz in a a gallon
 // 8 oz of water in a cup
 // Each box of jello takes 2.5 cups of water.
+// If you have a 20,000 gallon pool thats roughly $96,000 in jello.
 
 
 
