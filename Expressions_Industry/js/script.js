@@ -15,3 +15,6 @@ var cases_in_back = prompt("Enter the number of cases you have in your backroom 
 var cases_sold_per_day = prompt("Enter the number of cases you sell per day:")
 var anticipated = prompt("Enter the number of cases you intend to sell in the next 3 days:")
 
+var what_to_order = anticipated - cases_in_back;
+
+alert("You will need to order " + what_to_order +" cases of coffee to last you the next 3 days");
