@@ -12,7 +12,7 @@ Expressions Industry
 //How many cases to order to last you for the next 3 days.
 
 var cases_in_back = prompt("Enter the number of cases you have in your backroom already:")  // This tells you how much you already have in stock.
-var cases_sold_per_day = prompt("Enter the number of cases you sell per day:") // What you usually sell per day.
+var cases_sold_per_day = prompt("Enter the number of cases you sell per day:") // How many cases you usually sell per day.
 var anticipated = prompt("Enter the number of cases you intend to sell in the next 3 days:") // How much you anticipate to sell in the next 3 days.
 
 var what_to_order = anticipated - cases_in_back;  // This takes what you anticipate to sell, but also subtracts what you have in your backroom already so you dont order too much and create overstock.
