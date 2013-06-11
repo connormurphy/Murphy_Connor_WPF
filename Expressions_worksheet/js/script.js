@@ -12,9 +12,6 @@ var sparkysAge = 7; //This is human age of Sparky
 var dogYears = 7 + sparkysAge;  // This shows how old Sparky is in "dog years"
 
 
-
-console.log(dogYears);
-
 console.log("Sparky is " + sparkysAge + " human years old which is " + dogYears + " in dog years")
 
 
@@ -36,11 +33,12 @@ console.log("Each person ate " +slices_per_person + " slices at the party");  //
 
 var numSlices = 8;  //This shows how many slices are in a pizza
 var numPeople = 10;  // This the number of people at the party
-var numPizzas = 8;   // This is the number of pizzas that were ordered
+var numPizzas = 4;   // This is the number of pizzas that were ordered
 
 var sparkysPizza = numPizzas * numSlices % numPeople;  // This shows remainder of pizza after its been evenly distributed to each person.
 
-console.log(sparkysPizza);
+
+console.log("Sparky got " + sparkysPizza + " slices of pizza.")
 
 
 //Average Shopping Bill
