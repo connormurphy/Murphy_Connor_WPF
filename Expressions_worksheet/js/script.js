@@ -25,7 +25,11 @@ var numPizzas = 4;   // This is the number of pizzas that were ordered
 
 var slices_per_person = numSlices * numPizzas / numPeople; 
 
+var result =
+
 console.log(slices_per_person);  // This shows how many pieces each person will eat at the party.
+
+console.log("Each person ate " +slices_per_person + " slices at the party");
 
 
 //Slices of Pie part 2
@@ -64,6 +68,7 @@ var add_sales_tax = salesTax * originalPrice;  // 14.40 in tax.
 
 var price_with_tax = originalPrice - addDiscount + add_sales_tax;  // This is used to get price with tax.
 var price_without_tax = originalPrice - addDiscount;  // Price without tax.
+
 
 
 console.log(price_with_tax);
