@@ -21,3 +21,12 @@ var inGallon = prompt("How many ounces in a gallon?");
 var gallon = 128;
 var getOunces = gallon * gallons;
 
+var num_of_gallons = 20;
+
+var getBoxes = getOunces / num_of_gallons;
+
+console.log(getBoxes);
+
+
+alert("To fill up your entire pool of jello, it would take " + getBoxes + " boxes of jello.");
+
