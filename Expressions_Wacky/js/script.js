@@ -14,11 +14,11 @@ Expressions Wacky
 
 
 
-var gallons = prompt("How many gallons of water does your pool hold?");
-var inCup = prompt("How many ounces are in a cup?");
-var inGallon = prompt("How many ounces in a gallon?");
+var gallons = prompt("How many gallons of water does your pool hold?"); // Enter any number here for the size of your pool.
+var inCup = prompt("How many ounces are in a cup?");  // Enter however many ounces of water for the cups your using.
+var inGallon = prompt("How many ounces in a gallon?"); // Enter however many ounces are in a gallon.
 
-var gallon = 128;
+var gallon = 128; // 128oz of water is in a typical gallon
 var getOunces = gallon * gallons;
 
 var num_of_gallons = 20;
