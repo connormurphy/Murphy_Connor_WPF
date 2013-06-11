@@ -11,7 +11,7 @@ Expression Worksheet
 var sparkysAge = 7; //This is human age of Sparky
 var dogYears = 7 + sparkysAge;  // This shows how old Sparky is in "dog years"
 
-
+// Print out sparkys age in dog and human years.
 console.log("Sparky is " + sparkysAge + " human years old which is " + dogYears + " in dog years.")
 
 
@@ -38,7 +38,7 @@ var numPizzas = 4;   // This is the number of pizzas that were ordered
 
 var sparkysPizza = numPizzas * numSlices % numPeople;  // This shows remainder of pizza after its been evenly distributed to each person.
 
-
+// Print out how many slices of pizza Sparky will get.
 console.log("Sparky got " + sparkysPizza + " slices of pizza.")
 
 
@@ -51,6 +51,7 @@ var averageWeekly = total / 5;
 //This gets the average weekly total spent on groceries  
 
 
+// Print out total spent on groceries, and average per week.
 console.log("You have spent a total of  $" + total + " on groceries over 5 weeks.  This is an average of  $" + averageWeekly + " per week.")
 
 
@@ -70,7 +71,7 @@ var price_without_tax = originalPrice - addDiscount;  // Price without tax.
 
 
 
-
+// Print out price of watch, discount price, and how much it is with and without tax.
 console.log("Your watch was originally $" + originalPrice + " but after a 20% discount, it is now $" + price_without_tax + " without tax, and $" + price_with_tax + " with tax.")
 
 
