@@ -3,13 +3,14 @@ June 17, 2013
 Conditionals Exercise
 */
 
-var kidHeight = 40;
+var kidHeight = 47;
 var minHeight = 48;
+var sneakerLift = 2;
 //if the kid is over 48" in height
-if(kidHeight > minHeight){
+if(kidHeight + sneakerLift > minHeight){
 	//code performed if condition is true.
 	console.log("You can ride the coaster!"); 
 }
 
 
-//Relational Expressions
+
