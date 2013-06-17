@@ -3,12 +3,10 @@ June 11, 2013
 Conditionals Exercise
 */
 
-var width = prompt("We are calculating the area of a rectangle. \nPlease enter the width");
-var height = prompt("Please enter the height");
+var oldEnough = true;
 
-var area = width * height;
-console.log(area);
-
-
-alert("The area of your rectangle is " + area);
+if(oldEnough){
+	//code performed if condition is true.
+	console.log("You can ride the coaster!"); 
+}
 
