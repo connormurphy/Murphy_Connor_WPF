@@ -3,16 +3,14 @@ June 17, 2013
 Conditionals Exercise
 */
 
-var kidHeight = 52;
-var minHeight = 48;
-var sneakerLift = 2;
-//if the kid is over 48" in height
-if(kidHeight > minHeight){
-	//code performed if condition is true.
-	console.log("You can ride the coaster!"); 
-}
-else{
-}
+var budget = 300;
+var iphonePrice = 199.99;
+var paycheck = 200;
 
-console.log("Sorry, you've got some growing to do first!");
-
+//if the price less then budget AND our paycheck is over 300.
+if (iphonePrice < budget && paycheck > 300){ 
+	console.log("We can buy the phone!") ;
+	
+}else{ 
+	console.log ("No phone for you!!");
+}
