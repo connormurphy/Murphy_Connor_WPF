@@ -14,6 +14,8 @@ var noQualify = howOld <= 16 && weight <= 100 && height <= 5;
 
 if(qualify = true){
 	console.log("You meet the qualifications to donate blood!");
-}else{
-	console.log("You dont meet the qualifications to donate blood, please try at a later time.");
+}
+
+if(noQualify = true){
+	console.log("You dont meet the qualifications to donate blood, sorry!");
 }
