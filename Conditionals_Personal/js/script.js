@@ -32,6 +32,10 @@ else if(weight < requiredWeight){
 	console.log("You need to gain some weight before your able to donate blood!");
 }
 
+else if(height < requiredHeight){
+	console.log("You need to gain a few inches before your able to donate blood!");
+}
+
 
 else{
 	console.log("You meet the qualifications to donate blood!");
