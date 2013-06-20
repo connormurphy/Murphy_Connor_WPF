@@ -3,10 +3,21 @@ June 19, 2013
 Conditionals Industry
 */
 
-// Conditionals Industry.  Im creating a script to be used by a client that will tell me what kind of website they need designed, and how much money it will cost them.  The user will be able to tell me if they want it responsive, if they need a CMS, how many pages they need, and what their budget is.  The print outs will tell them if they have enough money, or if they need more.  It will also tell them what they can get for the budget they entered.
+// Conditionals Industry.  Im creating a script to be used by a client that will tell me what kind of website they need designed, and how much money it will cost them.  The user will be able to input how many pages they need, and what their budget is.  The script will print out if they have enough, or if they need more.
 
-var responsive = prompt ("Do you need your website to be responsive? (Yes or no)");
-var cms = prompt ("Do you need a content management system? (Yes or no)");
 var pages = prompt ("How many pages do you need designed and developed?");
 var budget = prompt ("What is your budget for this project?");
+
+//var moneyResponsive = 120;
+//var moneyCms = 300;
+var totalPages = pages * 90;
+
+
+(totalPages <= budget) ? console.log("You entered a total of " + pages + " pages, and said your budget is $" + budget + ".  You have enough money!") : console.log("You entered a total of " + pages + " pages, and said your budget is $" + budget + ".  You need more money, sorry!");
+
+
+
+//var responsiveCms = responsive == "yes" && cms == "yes";
+
+
 
