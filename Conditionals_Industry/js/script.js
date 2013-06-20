@@ -9,21 +9,12 @@ var pages = prompt ("How many pages do you need designed and developed?");
 var budget = prompt ("What is your budget for this project?");
 
 var totalPages = pages * 90;
-var discount = totalPages / .10;
+var discount = totalPages * .10;
 
 
-(totalPages <= budget) ? console.log("You entered a total of " + pages + " pages, and said your budget is $" + budget + ".  You have enough money!") : console.log("You entered a total of " + pages + " pages, and said your budget is $" + budget + ".  You need more money, sorry!");
+(totalPages <= budget) ? console.log("You entered a total of " + pages + " pages, and said your budget is $" + budget + ".  I would charge you $" + totalPages + ".  You have enough money!" ) : console.log("You entered a total of " + pages + " pages, and said your budget is $" + budget + ".  You need a total of $" + totalPages + " for me to start your project. ");
 
 
-
-/*if(pages > 5){
-	console.log("You entered a total of " + pages + " pages, and said you budget is $" + budget + ".  You have enough money, and I've even given you a 10% discount since you need more then 5 pages!");
-}
-
-else{
-	console.log("You entered a total of " + pages + " pages, and said your budget is $" + budget + ".  You need more money, sorry!");
-}
-	*/
 
 
 
