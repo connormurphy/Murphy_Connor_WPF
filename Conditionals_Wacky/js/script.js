@@ -19,9 +19,11 @@ var bacMale = (ozBeers * 5.14/weight * 0.73) - .015 * hours;
 var bacFemale = (ozBeers * 5.14/weight * 0.66) - .015 * hours;
 
 if(gender = "male"){
-	console.log("Your BAC level is " + bacMale + "%");
+	console.log("Your BAC level is " + bacMale + "%. Please don't drive if your past 0.08, it's illegal!");
 }
 
 else if(gender = "female"){
-	console.log("Your BAC level is " + bacFemale + "%");
+	console.log("Your BAC level is " + bacFemale + "%. Please don't drive if your past 0.08, it's illegal!");
 }
+
+
