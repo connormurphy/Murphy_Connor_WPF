@@ -25,18 +25,23 @@ var totalTimeWorked = startToRetire(startWork, age, retire);
 
 function startToRetire (startWork, age, retire){
 	var startToFinish = retire - startWork;
-	return startToFinish;
+	var startToFinish2 = startToFinish * 12;
+	return startToFinish2;
 	
 }
 
-var totalTimeWorked2 = startToRetire2 (startWork, age, retire);
 
-function startToRetire2 (startWork, age, retire){
-	var startToFinish2 = totalTimeWorked * 12;
-	return startToFinish2;
+console.log("Since your planning on retiring at age " + retire + ", you will work for a total of " + totalTimeWorked + " months in your life.");
+
+var whatsLeft = monthsLeft (startWork, age, retire);
+
+function monthsLeft (startWork, age, retire){
+	var timeLeft = 79 - retire
+	var timeLeft2 = timeLeft * 12;
+	return timeLeft2;
 }
 
-console.log("Since your planning on retiring at age " + retire + ", you will work for a total of " + totalTimeWorked2 + " months in your life.");
+console.log("This leaves you with " + whatsLeft + " months to do whatever you want to!");
 
 	
 
