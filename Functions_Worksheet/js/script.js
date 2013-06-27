@@ -17,5 +17,11 @@ circumference();
 // Stung!
 
 
-var killAnimal
+var killAnimal = function(){
+	var toKill = beeStrings * weight;
+	return toKill;
+	
+
+var weight = prompt("How much does this animal weight? (lbs)");
+	
 
