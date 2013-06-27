@@ -6,7 +6,6 @@ Functions Worksheet
 // Circumference of a circle
 
 
-
 function circumference (){
 	var radius = 6;
 	var getCircum = 2 * 3.14 * radius;
@@ -15,4 +14,8 @@ function circumference (){
 }
 circumference();
 
+// Stung!
+
+
+var killAnimal
 
