@@ -22,9 +22,9 @@ var killAnimal = function(){ // This is the function to figure out how many stin
 	return toKill;
 }
 
-var weight = prompt("How much does this animal weight? (lbs)");
-var beeStings = 8.666666667;
-var numStings = killAnimal(beeStings, weight);
+var weight = prompt("How much does this animal weight? (lbs)"); // This asks the user to enter weight.
+var beeStings = 8.666666667; // number of bee stings per pound to kill an animal
+var numStings = killAnimal(beeStings, weight); // this calls the function.
 console.log("It takes " + numStings + " stings to kill a " + weight + " pound animal.");
 
 	
