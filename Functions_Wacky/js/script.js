@@ -7,8 +7,9 @@ Functions Wacky
 
 var fact = alert("The average life expectancy in the US as of 2013 is about 79 years old.");
 
-var age = prompt("How old are you now?");
 var startWork = prompt("What age did you start working?");
+var age = prompt("How old are you now?");
 var retire = prompt("What age do you plan to retire?");
 
-
+var calcMonthsWorked = function (age, startWork, retire){
+	var monthsWorked = 
