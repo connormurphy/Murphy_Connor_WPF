@@ -17,8 +17,8 @@ circumference();
 // Stung!
 
 
-var killAnimal = function(){
-	var toKill = beeStings * weight;
+var killAnimal = function(){ // This is the function to figure out how many stings it takes
+	var toKill = beeStings * weight; // this is what calculates what it takes to kill an animal
 	return toKill;
 }
 
