@@ -3,13 +3,9 @@ June 26 2013
 Functions Worksheet
 */
 
-var calcArea = function(width, height){
-	//code the function runs
-	var area = width * height;
-	return area;
-	
-}
+// Circumference of a circle
 
-var a = calcArea(20,30);
 
-console.log(a); 
+function circumference (){
+	var radius = 6;
+	var get_circumference = 2 * 3.14 * radius;
