@@ -6,9 +6,9 @@ Functions Worksheet
 // Circumference of a circle
 
 
-function circumference (){
-	var radius = 6;
-	var getCircum = 2 * 3.14 * radius;
+function circumference (){ // This is the function to run the circumference
+	var radius = 6; // this is the radius of the circle, can be changed to anything
+	var getCircum = 2 * 3.14 * radius; // calculation to get circumference of a circle.
 	console.log("The circumference of the circle is " + getCircum + "")
 	
 }
