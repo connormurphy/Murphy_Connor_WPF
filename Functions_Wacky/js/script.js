@@ -21,4 +21,6 @@ var calcMonthsLeft = function (age, startWork, retire){
 	return monthsLeft;
 }
 
+var totalMonthsWorked = calcMonthsWorked (age, startWork, retire);
+var totalMonthsLeft = calcMonthsLeft (age, startWork, retire);
 
