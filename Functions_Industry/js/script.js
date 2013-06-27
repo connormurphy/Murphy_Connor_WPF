@@ -25,9 +25,12 @@ var getVolume = function(length, width, height){ // function
 var useFunction = getVolume(length, width, height); // this is used to call the function and printout what the actual calculation is.
 
 
-if(question = "inches"){
+/*if(question = "inches"){
 console.log("The volume of this room is " + useFunction + " cubic inches.  The length was " + length + " inches, the width was " + width + " inches, and the height was " + height + " inches.");
 // this prints out the calculation for the volume of the room.
 }else{
-	console.log("The volume of this room is " + useFunction + " cubic inches.  The length was " + length + " inches, the width was " + width + " inches, and the height was " + height + " inches.");
+	console.log("The volume of this room is " + useFunction + " cubic inches.  The length was " + feetLength + " feet, the width was " + feetWidth + " feet, and the height was " + feetHeight + " feet.");
 }
+*/
+
+(question = "inches") ? console.log("The volume of this room is " + useFunction + " cubic inches.  The length was " + length + " inches, the width was " + width + " inches, and the height was " + height + " inches.") : console.log("The volume of this room is " + useFunction + " cubic inches.  The length was " + feetLength + " feet, the width was " + feetWidth + " feet, and the height was " + feetHeight + " feet.");
