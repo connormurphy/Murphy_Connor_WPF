@@ -12,6 +12,10 @@ var height = prompt("What is the height of the room? (inches)"); // height of ro
 
 var question = prompt("Do you want the result displayed in inches or feet?");
 
+var feetLength = length * 0.08333
+var feetWidth = width * 0.08333
+var feetHeight = height *  0.08333
+
 var getVolume = function(length, width, height){ // function
 	var volume = length * width * height; // calculation to get volume
 	return volume; // this returns the information to the printout
