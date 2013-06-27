@@ -18,12 +18,14 @@ circumference();
 
 
 var killAnimal = function(){
-	var toKill = beeStrings * weight;
+	var toKill = beeStings * weight;
 	return toKill;
-	
+}
 
 var weight = prompt("How much does this animal weight? (lbs)");
 var beeStings = 8.666666667;
 var numStings = killAnimal(beeStings, weight);
+console.log("It takes " + numStings + " stings to kill a " + weight + " pound animal.");
+
 	
 
