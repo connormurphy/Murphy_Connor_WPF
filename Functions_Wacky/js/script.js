@@ -11,14 +11,14 @@ var startWork = prompt("What age did you start working?");
 var age = prompt("How old are you now?");
 var retire = prompt("What age do you plan to retire?");
 
-var calcMonthsWorked = function (age, startWork, retire){
-	var monthsWorked = age - startWork;
-	return monthsWorked;
+var calcYearsWorked = function (age, startWork, retire){
+	var yearsWorked = age - startWork;
+	return yearsWorked;
 }
 
-var calcMonthsLeft = function (age, startWork, retire){
-	var monthsLeft = 79 - monthsWorked;
-	return monthsLeft;
+var calcYearsLeft = function (age, startWork, retire){
+	var yearsLeft = 79 - monthsWorked;
+	return yearsLeft;
 }
 
 var totalMonthsWorked = calcMonthsWorked (age, startWork, retire);
