@@ -21,11 +21,11 @@ function yearsSoFar (startWork, age, retire){ // function for years worked so fa
 
 
 
-var totalTimeWorked = startToRetire(startWork, age, retire); // calls the function
+var totalTimeWorked = startToRetire(startWork, age, retire); // Calls the function
 
-function startToRetire (startWork, age, retire){
+function startToRetire (startWork, age, retire){ // This function tells how many months you will work in your life based on when you started working and when you want to be retired by
 	var startToFinish = retire - startWork;
-	var startToFinish2 = startToFinish * 12;
+	var startToFinish2 = startToFinish * 12; // Takes retired age, and when you started and multiplies by 12 to get month count.
 	return startToFinish2;
 	
 }
@@ -33,17 +33,18 @@ function startToRetire (startWork, age, retire){
 
 
 
-var whatsLeft = monthsLeft (startWork, age, retire);
+var whatsLeft = monthsLeft (startWork, age, retire); // Calls the function
 
-function monthsLeft (startWork, age, retire){
-	var timeLeft = 79 - retire
-	var timeLeft2 = timeLeft * 12;
-	return timeLeft2;
+function monthsLeft (startWork, age, retire){ // This function tells you how many months you have left after you retire. 
+	var timeLeft = 79 - retire // average life expectancy minus the desired retire age.
+	var timeLeft2 = timeLeft * 12; // gets month count.
+	return timeLeft2; // returns to whatsLeft variable.
 }
 
 
 
 
-console.log("So far, you've worked for " + totalSoFar + " years.  Since your planning on retiring at age " + retire + ", you will work for a total of " + totalTimeWorked + " months in your life.  This leaves you with " + whatsLeft + " months to do whatever you want to before you die!");
+console.log("So far, you've worked for " + totalSoFar + " years.  Since your planning on retiring at age " + retire + ", you will work for a total of " + totalTimeWorked + " months in your life.  This leaves you with " + whatsLeft + " months of free time to do whatever you want to before you die!");
 
+//console printout message 
 	
