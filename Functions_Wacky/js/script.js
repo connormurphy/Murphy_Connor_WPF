@@ -11,28 +11,82 @@ var startWork = prompt("What age did you start working?");
 var age = prompt("How old are you now?");
 var retire = prompt("What age do you plan to retire?");
 
-var yearsToMonths1 = yearsWorked * 12;
-var yearsToMonths2 = yearsLeft * 12;
 
-var totalTimeWorked = retire - startWork * 12;
-var monthsLeft = 79 - retire * 12;
+var totalSoFar = yearsSoFar(startWork, age, retire);
+
+function yearsSoFar (startWork, age, retire){
+	var soFar = age - startWork;
+	return soFar;
+}
+
+console.log("So far, you've worked for " + totalSoFar + " years.");
+
+var totalTimeWorked = startToRetire(startWork, age, retire);
+
+function startToRetire (startWork, age, retire){
+	var startToFinish = retire - startWork;
+	return startToFinish;
+	
+}
+
+var totalTimeWorked2 = startToRetire2 (startWork, age, retire);
+
+function startToRetire2 (startWork, age, retire){
+	var startToFinish2 = totalTimeWorked * 12;
+	return startToFinish2;
+}
+
+console.log("Since your planning on retiring at age " + retire + ", you will work for a total of " + totalTimeWorked2 + " months in your life.");
+
+	
 
 
-var totalYearsWorked = calcYearsWorked (age, startWork, retire);
-var totalYearsLeft = calcYearsLeft (age, startWork, retire);
 
 
 
-var calcYearsWorked = function (age, startWork, retire){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//var totalTimeWorked = retire - startWork * 12;
+//var monthsLeft = 79 - retire * 12;
+
+
+/*var totalYearsWorked = calcYearsWorked (age, startWork, retire);
+
+function calcYearsWorked (age, startWork, retire){
 	var yearsWorked = age - startWork;
 	return yearsWorked;
 }
 
-var calcYearsLeft = function (age, startWork, retire){
+var totalYearsLeft = calcYearsLeft (age, startWork, retire);
+
+function calcYearsLeft (age, startWork, retire){
 	var yearsLeft = 79 - yearsWorked;
 	return yearsLeft;
 }
 
+function totalTimeWorked(){
+	var totalTime = retire - startWork *12;
+	var monthsLeft = 79 - retire *12;
+	return totalTime;
+	return monthsLeft;
+}
 
-
-console.log("So far, you've been working for " + totalYearsWorked + " years.  Since your planning to retire at age " + retire + ", you will work for a total of " + totalTimeWorked + " months in your life.  This leaves you with " + monthsLeft + " months to do whatever you want to do!");
+*/
